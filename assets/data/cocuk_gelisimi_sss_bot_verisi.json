@@ -1,0 +1,385 @@
+{
+  "faqs": [
+    {
+      "category": "Genel Danışmanlık",
+      "question": "Çocuk gelişimi uzmanından ne zaman destek almalıyım?",
+      "answer": "Çocuğunuzun gelişimi, davranışları, dikkat becerileri, okul hazırlığı, iletişimi, uyku-yemek rutinleri veya sosyal-duygusal uyumu hakkında aklınızda tekrar eden bir soru varsa destek alabilirsiniz. Destek almak için mutlaka büyük bir sorun yaşanması gerekmez; gelişimsel değerlendirme süreci çocuğun güçlü yönlerini ve desteklenmesi gereken alanları daha görünür hale getirir.",
+      "keywords": [
+        "çocuk gelişimi uzmanı",
+        "gelişimsel değerlendirme",
+        "ebeveyn danışmanlığı"
+      ],
+      "cta": "Çocuğunuzun yaşı ve başvuru nedeninizi kısaca yazarak iletişim formundan ön görüşme talebi oluşturabilirsiniz."
+    },
+    {
+      "category": "Genel Danışmanlık",
+      "question": "İlk görüşmede ne yapılır?",
+      "answer": "İlk görüşmede aileden çocuğun gelişimsel öyküsü, günlük rutinleri, okul/ev ortamındaki gözlemler ve başvuru nedeni hakkında bilgi alınır. Amaç, çocuğu tek bir davranış üzerinden değerlendirmek değil; gelişimsel, ailesel ve çevresel bağlamı birlikte anlamaktır.",
+      "keywords": [
+        "ilk görüşme",
+        "çocuk gelişimi görüşmesi",
+        "danışmanlık süreci"
+      ],
+      "cta": "İlk görüşmeye gelirken varsa önceki değerlendirme raporlarını ve öğretmen gözlemlerini paylaşabilirsiniz."
+    },
+    {
+      "category": "Genel Danışmanlık",
+      "question": "Gelişimsel değerlendirme tanı koyar mı?",
+      "answer": "Gelişimsel değerlendirme çocuğun gelişim alanları hakkında bilimsel ve yapılandırılmış bilgi sunar; ancak tıbbi tanı koyma süreci değildir. Tanı gerektiren durumlarda çocuk psikiyatrisi, çocuk nörolojisi veya ilgili sağlık uzmanlarına yönlendirme yapılabilir.",
+      "keywords": [
+        "gelişimsel değerlendirme tanı koyar mı",
+        "çocuk gelişimi değerlendirmesi"
+      ],
+      "cta": "Değerlendirme sonuçları, uygun destek planının oluşturulmasına yardımcı olur."
+    },
+    {
+      "category": "Genel Danışmanlık",
+      "question": "Çocuğum yaşıtlarından geri gibi görünüyor, ne yapmalıyım?",
+      "answer": "Her çocuğun gelişim hızı farklıdır; ancak dil, motor, sosyal iletişim, öz bakım veya oyun becerilerinde belirgin gecikme gözleniyorsa gelişimsel değerlendirme yararlı olabilir. Özellikle daha önce yapabildiği bir beceriyi kaybetme, göz teması/iletişimde belirgin azalma veya yoğun davranışsal zorlanmalar varsa gecikmeden uzman görüşü alınmalıdır.",
+      "keywords": [
+        "gelişimsel gecikme",
+        "çocuğum geç konuşuyor",
+        "çocuk gelişimi"
+      ],
+      "cta": "Gözlemlerinizi not alarak bir değerlendirme randevusu planlayabilirsiniz."
+    },
+    {
+      "category": "Genel Danışmanlık",
+      "question": "0-18 yaş çocuk gelişimi ve aile danışmanlığı hizmeti neyi kapsar?",
+      "answer": "Bu kapsam; çocuk ve ergenlerin gelişimsel ihtiyaçlarını, aile içi iletişimi, ebeveynlik tutumlarını, rutinleri, okul hazırlığını, dikkat ve öğrenme süreçlerini bütüncül şekilde ele alır. Süreç, çocuğun yaşına ve ailenin ihtiyacına göre değerlendirme, danışmanlık ve yönlendirme adımlarıyla ilerler.",
+      "keywords": [
+        "0-18 yaş çocuk gelişimi",
+        "aile danışmanlığı",
+        "ebeveyn danışmanlığı"
+      ],
+      "cta": "Hangi hizmetin uygun olduğunu netleştirmek için iletişim formundan başvuru nedeninizi paylaşabilirsiniz."
+    },
+    {
+      "category": "Değerlendirme Araçları",
+      "question": "MOXO Dikkat Testi nedir?",
+      "answer": "MOXO Dikkat Testi, çocuklarda dikkat, zamanlama, dürtüsellik ve hiperaktivite performansını bilgisayar tabanlı görevlerle değerlendirmeye yardımcı olan bir testtir. Görsel ve işitsel çeldiriciler içermesi, günlük yaşamdaki dikkat dağıtıcı uyaranlara benzer bir değerlendirme ortamı sunar.",
+      "keywords": [
+        "MOXO Dikkat Testi",
+        "dikkat testi",
+        "dürtüsellik",
+        "hiperaktivite"
+      ],
+      "cta": "MOXO sonucu tek başına tanı değildir; uzman değerlendirmesi ve aile/öğretmen gözlemleriyle birlikte yorumlanmalıdır."
+    },
+    {
+      "category": "Değerlendirme Araçları",
+      "question": "MOXO Dikkat Testi hangi durumlarda uygulanır?",
+      "answer": "Dikkatini sürdürmekte zorlanma, çabuk sıkılma, yönergeleri kaçırma, aceleci tepki verme, zamanı verimli kullanamama veya hareketliliğin öğrenmeyi etkilemesi gibi durumlarda MOXO değerlendirmesi düşünülebilir. Test, dikkat profilini daha somut verilerle anlamaya yardımcı olur.",
+      "keywords": [
+        "MOXO kimlere uygulanır",
+        "çocuklarda dikkat eksikliği testi"
+      ],
+      "cta": "Test uygunluğu için çocuğun yaşı, okul durumu ve başvuru nedeninin ön görüşmede değerlendirilmesi önerilir."
+    },
+    {
+      "category": "Değerlendirme Araçları",
+      "question": "MOXO Dikkat Testi DEHB tanısı koyar mı?",
+      "answer": "Hayır. MOXO Dikkat Testi dikkat, zamanlama, dürtüsellik ve hiperaktivite performansı hakkında objektif veri sağlar; ancak DEHB tanısı koymaz. Tanı, klinik değerlendirme ve ilgili uzman görüşü gerektirir.",
+      "keywords": [
+        "MOXO DEHB tanısı",
+        "DEHB testi",
+        "dikkat eksikliği"
+      ],
+      "cta": "MOXO sonuçları gerektiğinde çocuk psikiyatrisi değerlendirmesine destekleyici bilgi olarak sunulabilir."
+    },
+    {
+      "category": "Değerlendirme Araçları",
+      "question": "Marmara İlkokula Hazır Oluş Ölçeği nedir?",
+      "answer": "Marmara İlkokula Hazır Oluş Ölçeği, çocukların ilkokula geçiş sürecindeki gelişimsel hazır oluş düzeylerini değerlendirmeye yardımcı olan kapsamlı bir ölçme aracıdır. Dikkat, dil, görsel algı, ince motor beceriler, sosyal-duygusal uyum ve temel akademik ön beceriler gibi alanları birlikte ele alır.",
+      "keywords": [
+        "Marmara İlkokula Hazır Oluş Ölçeği",
+        "okula hazırlık testi",
+        "ilkokula hazır oluş"
+      ],
+      "cta": "Okula başlama sürecinde çocuğun güçlü ve desteklenmesi gereken alanlarını görmek için kullanılabilir."
+    },
+    {
+      "category": "Değerlendirme Araçları",
+      "question": "Çocuğum ilkokula hazır mı?",
+      "answer": "İlkokula hazır oluş yalnızca yaşla ilgili değildir. Dikkat süresi, yönerge takibi, dil gelişimi, ince motor beceriler, sosyal-duygusal uyum, öz bakım ve temel akademik ön beceriler birlikte değerlendirilmelidir. Bu nedenle okul öncesi dönemde yapılandırılmış bir hazır oluş değerlendirmesi aileye yol gösterir.",
+      "keywords": [
+        "çocuğum ilkokula hazır mı",
+        "okul olgunluğu",
+        "ilkokula hazırlık"
+      ],
+      "cta": "Marmara İlkokula Hazır Oluş Ölçeği ile değerlendirme hakkında bilgi alabilirsiniz."
+    },
+    {
+      "category": "Değerlendirme Araçları",
+      "question": "DENVER II nedir?",
+      "answer": "DENVER II, 0-6 yaş çocukların kişisel-sosyal, ince motor, dil ve kaba motor gelişim alanlarını taramaya yardımcı olan gelişimsel değerlendirme aracıdır. Çocuğun gelişimsel izleminde destekleyici bilgi sağlar.",
+      "keywords": [
+        "DENVER II",
+        "gelişimsel tarama",
+        "0-6 yaş gelişim testi"
+      ],
+      "cta": "DENVER II sonucu, çocuğun genel gelişimsel profilini anlamak için aile görüşmesi ve gözlemle birlikte değerlendirilir."
+    },
+    {
+      "category": "Müdahale Programları",
+      "question": "PORTAGE nedir?",
+      "answer": "PORTAGE, çocuğun gelişim alanlarını desteklemek için aileyle birlikte yapılandırılmış hedefler oluşturmaya yardımcı olan erken eğitim ve müdahale programıdır. Ev ortamına taşınabilecek küçük, uygulanabilir hedeflerle ilerler.",
+      "keywords": [
+        "PORTAGE",
+        "erken müdahale",
+        "çocuk gelişimi programı"
+      ],
+      "cta": "PORTAGE süreci çocuğun ihtiyaçlarına göre bireyselleştirilmiş hedeflerle planlanır."
+    },
+    {
+      "category": "Müdahale Programları",
+      "question": "Türkçe PREP nedir?",
+      "answer": "Türkçe PREP, okuma ve öğrenme süreçlerini desteklemek amacıyla dikkat, planlama ve bilgi işleme becerilerini geliştirmeye yönelik bilişsel müdahale programıdır. Özellikle öğrenme süreçlerinde zorlanan çocuklara yapılandırılmış destek sunar.",
+      "keywords": [
+        "Türkçe PREP",
+        "okuma güçlüğü",
+        "bilişsel müdahale"
+      ],
+      "cta": "PREP uygunluğu çocuğun öğrenme profili ve değerlendirme sonuçlarına göre belirlenir."
+    },
+    {
+      "category": "Müdahale Programları",
+      "question": "COGENT programı nedir?",
+      "answer": "COGENT, okul öncesi dönemde çocukların bilişsel gelişimini, kavram becerilerini ve okula hazırlık süreçlerini destekleyen yapılandırılmış bir programdır. Çocuğun dikkat, planlama ve temel kavram becerilerine katkı sağlamayı hedefler.",
+      "keywords": [
+        "COGENT",
+        "okul öncesi bilişsel gelişim",
+        "okula hazırlık"
+      ],
+      "cta": "COGENT, değerlendirme sonucuna göre çocuğun gelişimsel ihtiyacına uygun biçimde planlanır."
+    },
+    {
+      "category": "Aile Danışmanlığı",
+      "question": "Aile danışmanlığı hangi konularda destek sağlar?",
+      "answer": "Aile danışmanlığı; aile içi iletişim, ebeveynlik tutumları, sınır koyma, rutin oluşturma, kardeş ilişkileri, çatışma çözme ve ilişkisel süreçleri ele alır. Amaç, aile içinde daha güvenli, anlaşılır ve sürdürülebilir bir iletişim ortamı oluşturmaktır.",
+      "keywords": [
+        "aile danışmanlığı",
+        "ebeveyn danışmanlığı",
+        "aile içi iletişim"
+      ],
+      "cta": "Aile danışmanlığı süreci hakkında bilgi almak için iletişim formunu kullanabilirsiniz."
+    },
+    {
+      "category": "Aile Danışmanlığı",
+      "question": "Ebeveyn danışmanlığı nedir?",
+      "answer": "Ebeveyn danışmanlığı, çocuğun davranışlarını yalnızca problem olarak görmek yerine gelişimsel ihtiyaçları, aile dinamikleri ve günlük rutinler içinde anlamaya odaklanır. Ebeveynlere sınır koyma, duygu düzenleme, iletişim ve rutin oluşturma konularında uygulanabilir öneriler sunar.",
+      "keywords": [
+        "ebeveyn danışmanlığı",
+        "çocuk davranışları",
+        "sınır koyma"
+      ],
+      "cta": "Başvuru nedeninizi kısa açıklayarak ebeveyn danışmanlığı için görüşme talep edebilirsiniz."
+    },
+    {
+      "category": "Rutinler",
+      "question": "Çocuklarda rutinler neden önemlidir?",
+      "answer": "Rutinler çocuklara öngörülebilirlik, güven ve düzen duygusu sağlar. Uyku, yemek, oyun, ödev ve ekran kullanımı gibi alanlarda tutarlı rutinler; duygu düzenleme, özdenetim ve sorumluluk becerilerini destekleyebilir.",
+      "keywords": [
+        "çocuklarda rutin",
+        "duygu düzenleme",
+        "özdenetim"
+      ],
+      "cta": "Ailenize uygun rutin planı oluşturmak için ebeveyn danışmanlığı desteği alabilirsiniz."
+    },
+    {
+      "category": "Rutinler",
+      "question": "Çocuğuma rutin kazandırmak için nereden başlamalıyım?",
+      "answer": "Başlamak için tek bir alan seçmek en uygunudur: uyku, sabah hazırlığı, ödev saati veya ekran kullanımı gibi. Küçük, net ve tekrar edilebilir adımlar belirlemek; görsel hatırlatıcılar ve tutarlı ebeveyn yaklaşımıyla süreci desteklemek önemlidir.",
+      "keywords": [
+        "rutin oluşturma",
+        "çocuklarda alışkanlık",
+        "ev düzeni"
+      ],
+      "cta": "Çocuğunuzun yaşına ve aile düzeninize uygun rutin hedefleri birlikte belirlenebilir."
+    },
+    {
+      "category": "Oyun",
+      "question": "Oyun çocuk gelişimi için neden önemlidir?",
+      "answer": "Oyun, çocuğun öğrenme, keşfetme, iletişim kurma, problem çözme ve duygu düzenleme becerilerini destekleyen temel gelişim alanlarından biridir. Çocuk oyun yoluyla hem dünyayı anlamlandırır hem de sosyal ilişkileri deneyimler.",
+      "keywords": [
+        "oyun ve çocuk gelişimi",
+        "oyun temelli öğrenme",
+        "çocuklarda oyun"
+      ],
+      "cta": "Oyun temelli öneriler çocuğun yaşına ve gelişimsel ihtiyacına göre planlanabilir."
+    },
+    {
+      "category": "Oyun",
+      "question": "Çocuğumla nasıl oyun oynamalıyım?",
+      "answer": "Çocuğun yaşına ve ilgisine uygun, yönlendirici olmayan ve karşılıklı etkileşime dayalı oyunlar tercih edilebilir. Bazen çocuğun liderliğini takip etmek, onun kurduğu oyuna katılmak ve süreci yargılamadan gözlemlemek gelişimsel açıdan çok değerlidir.",
+      "keywords": [
+        "çocukla oyun oynamak",
+        "ebeveyn çocuk oyunu",
+        "oyun önerileri"
+      ],
+      "cta": "Oyun sürecinde zorlanıyorsanız, yaşa uygun oyun ve etkileşim önerileri için danışmanlık alabilirsiniz."
+    },
+    {
+      "category": "Dijital Ebeveynlik",
+      "question": "Çocuklarda ekran süresi nasıl düzenlenmeli?",
+      "answer": "Ekran süresini yalnızca dakika üzerinden değil; içeriğin niteliği, çocuğun yaşı, ekranın uykuyu/oyunu/hareketi/iletişimi ne kadar etkilediği ve aile içi kurallar açısından değerlendirmek gerekir. Ekran kurallarının açık, tutarlı ve aile yaşamına uygun olması önemlidir.",
+      "keywords": [
+        "çocuklarda ekran süresi",
+        "dijital ebeveynlik",
+        "ekran kuralları"
+      ],
+      "cta": "Ailenize uygun ekran kuralları ve rutin planı için danışmanlık desteği alabilirsiniz."
+    },
+    {
+      "category": "Dijital Ebeveynlik",
+      "question": "Ekranı tamamen yasaklamak doğru mu?",
+      "answer": "Her aile ve çocuk için tek bir doğru yoktur. Önemli olan yaşa uygun içerik, süre sınırı, ekranın temel gelişimsel ihtiyaçların önüne geçmemesi ve ebeveynin rehberlik etmesidir. Yasak yerine açık kurallar, birlikte izleme/konuşma ve ekran dışı alternatifler daha sürdürülebilir olabilir.",
+      "keywords": [
+        "ekran yasağı",
+        "dijital ebeveynlik",
+        "çocuklarda teknoloji"
+      ],
+      "cta": "Çocuğunuzun ekran kullanımı aile düzenini etkiliyorsa değerlendirme ve danışmanlık planlanabilir."
+    },
+    {
+      "category": "Dijital Ebeveynlik",
+      "question": "Çocuğum ekranı bırakınca çok öfkeleniyor, ne yapabilirim?",
+      "answer": "Ekrandan ayrılma güçlüğü sık görülebilir. Geçişleri kolaylaştırmak için önceden haber verme, görsel zamanlayıcı kullanma, ekran sonrası net bir rutin belirleme ve sakin ama tutarlı sınır koyma işe yarayabilir. Yoğun öfke nöbetleri sıklaşıyorsa çocuğun duygu düzenleme becerileri ayrıca değerlendirilmelidir.",
+      "keywords": [
+        "ekran bırakma öfkesi",
+        "çocuklarda öfke",
+        "ekran bağımlılığı"
+      ],
+      "cta": "Bu durum sık tekrar ediyorsa aileye özel ekran-rutin planı oluşturulabilir."
+    },
+    {
+      "category": "Dikkat ve Öğrenme",
+      "question": "Çocuğum dikkatini toplamakta zorlanıyor, bu normal mi?",
+      "answer": "Dikkat süresi yaşa, ilgi alanına, uyku düzenine, ekran kullanımına, duygusal duruma ve öğrenme ortamına göre değişebilir. Ancak dikkat güçlüğü okul, ev ve sosyal yaşamda belirgin sorunlara yol açıyorsa değerlendirme yapılması yararlı olur.",
+      "keywords": [
+        "çocuklarda dikkat eksikliği",
+        "dikkat toplama",
+        "MOXO"
+      ],
+      "cta": "Dikkat profilini daha iyi anlamak için MOXO Dikkat Testi ve gelişimsel değerlendirme seçenekleri incelenebilir."
+    },
+    {
+      "category": "Dikkat ve Öğrenme",
+      "question": "Çocuğum ödev yapmayı sürekli erteliyor, neden olabilir?",
+      "answer": "Erteleme davranışı yalnızca isteksizlik olmayabilir; dikkat sürdürme, planlama, zaman yönetimi, kaygı, zorlanılan akademik beceriler veya rutin eksikliğiyle ilişkili olabilir. Çocuğun hangi aşamada zorlandığını anlamak destek planı için önemlidir.",
+      "keywords": [
+        "çocuklarda erteleme",
+        "ödev rutini",
+        "dikkat ve planlama"
+      ],
+      "cta": "Ödev ve rutin sorunları için ebeveyn danışmanlığı ve gerekirse dikkat/öğrenme değerlendirmesi planlanabilir."
+    },
+    {
+      "category": "Okula Hazırlık",
+      "question": "Okula başlama yaşı tek başına yeterli bir ölçüt müdür?",
+      "answer": "Hayır. Yaş önemli bir göstergedir ancak tek başına yeterli değildir. Çocuğun dikkat, dil, ince motor, sosyal-duygusal uyum, öz bakım ve yönerge takibi gibi becerileri de ilkokula geçiş sürecinde dikkate alınmalıdır.",
+      "keywords": [
+        "okula başlama yaşı",
+        "ilkokula hazır oluş",
+        "okul olgunluğu"
+      ],
+      "cta": "Marmara İlkokula Hazır Oluş Ölçeği bu süreci daha bütüncül değerlendirmeye yardımcı olur."
+    },
+    {
+      "category": "Okula Hazırlık",
+      "question": "İlkokula hazırlık değerlendirmesi ne zaman yapılmalı?",
+      "answer": "Genellikle okul öncesi son dönemde, aile veya öğretmen çocuğun okula hazır oluşu konusunda soru işaretleri yaşıyorsa değerlendirme yapılabilir. Değerlendirme, çocuğun güçlü yönlerini ve desteklenmesi gereken alanları önceden görmeyi sağlar.",
+      "keywords": [
+        "ilkokula hazırlık değerlendirmesi",
+        "Marmara İlkokula Hazır Oluş Ölçeği"
+      ],
+      "cta": "Okul öncesi dönemde değerlendirme için iletişim formundan bilgi talep edebilirsiniz."
+    },
+    {
+      "category": "Dil ve İletişim",
+      "question": "Çocuğum geç konuşuyor, ne zaman destek almalıyım?",
+      "answer": "Konuşma gelişimi çocuklar arasında değişebilir; ancak çocuğun yaşına göre kelime, cümle kurma, yönerge anlama, ortak dikkat ve iletişim başlatma becerilerinde belirgin gecikme varsa uzman görüşü alınmalıdır. İşitme, gelişimsel ve çevresel faktörler birlikte değerlendirilmelidir.",
+      "keywords": [
+        "çocuğum geç konuşuyor",
+        "dil gelişimi",
+        "gelişimsel değerlendirme"
+      ],
+      "cta": "Dil gelişimiyle ilgili kaygılar için gelişimsel değerlendirme planlanabilir."
+    },
+    {
+      "category": "Davranış ve Duygu",
+      "question": "Çocuğum sık öfkeleniyor, bu davranışsal bir sorun mu?",
+      "answer": "Öfke, çocuklukta normal bir duygudur; ancak öfkenin sıklığı, şiddeti, süresi ve günlük yaşamı ne kadar etkilediği önemlidir. Duyguları ifade etme, sınırlarla baş etme, geçişler ve rutinler bu süreçte değerlendirilmelidir.",
+      "keywords": [
+        "çocuklarda öfke",
+        "duygu düzenleme",
+        "ebeveyn danışmanlığı"
+      ],
+      "cta": "Öfke ve duygu düzenleme süreçleri için ebeveyn danışmanlığı desteği alınabilir."
+    },
+    {
+      "category": "Davranış ve Duygu",
+      "question": "Çocuğum sınır koyduğumda ağlıyor veya direniyor, ne yapmalıyım?",
+      "answer": "Sınır koymak çocuğun her zaman hemen kabul edeceği bir durum değildir. Önemli olan sınırın açık, tutarlı, yaşa uygun ve sakin bir dille ifade edilmesidir. Çocuğun duygusunu kabul etmek, ancak sınırı korumak güvenli ebeveynlik yaklaşımının parçasıdır.",
+      "keywords": [
+        "çocuklarda sınır koyma",
+        "ebeveyn tutumu",
+        "aile danışmanlığı"
+      ],
+      "cta": "Sınır koyma ve rutin oluşturma konusunda aile danışmanlığı desteği planlanabilir."
+    },
+    {
+      "category": "Süreç ve Randevu",
+      "question": "Randevu almak için ne yapmalıyım?",
+      "answer": "İletişim sayfasındaki formu doldurarak başvuru nedeninizi, çocuğunuzun yaşını ve almak istediğiniz hizmeti kısaca paylaşabilirsiniz. Size uygun değerlendirme veya danışmanlık süreci bu bilgiler doğrultusunda planlanır.",
+      "keywords": [
+        "randevu",
+        "iletişim",
+        "çocuk gelişimi danışmanlığı"
+      ],
+      "cta": "İletişim formundan mesaj bırakabilirsiniz."
+    },
+    {
+      "category": "Süreç ve Randevu",
+      "question": "Görüşmeye gelirken hangi bilgileri paylaşmalıyım?",
+      "answer": "Çocuğun yaşı, gelişimsel öyküsü, okul/öğretmen gözlemleri, başvuru nedeni, varsa önceki değerlendirme raporları ve aile olarak en çok zorlandığınız alanlar görüşme için yol gösterici olur.",
+      "keywords": [
+        "görüşmeye hazırlık",
+        "çocuk gelişimi randevusu"
+      ],
+      "cta": "Formda kısa bir ön bilgi paylaşmanız ilk görüşmenin daha verimli planlanmasına yardımcı olur."
+    },
+    {
+      "category": "Süreç ve Randevu",
+      "question": "Online danışmanlık yapılabilir mi?",
+      "answer": "Bazı ebeveyn danışmanlığı ve aile danışmanlığı görüşmeleri online yürütülebilir. Ancak test uygulamaları ve gelişimsel değerlendirmelerin bir bölümü yüz yüze uygulama gerektirebilir. Uygun format, başvuru nedenine göre belirlenir.",
+      "keywords": [
+        "online ebeveyn danışmanlığı",
+        "online aile danışmanlığı"
+      ],
+      "cta": "Online veya yüz yüze görüşme uygunluğu için iletişim formundan bilgi alabilirsiniz."
+    },
+    {
+      "category": "Güvenlik ve Sınırlar",
+      "question": "Bu web sitesindeki bilgilendirme tanı veya tedavi yerine geçer mi?",
+      "answer": "Hayır. Web sitesindeki ve bilgilendirme asistanındaki içerikler genel bilgilendirme amaçlıdır; tanı, tedavi veya tıbbi öneri yerine geçmez. Çocuğunuzla ilgili özel bir kaygınız varsa uzman görüşmesi planlamanız önerilir.",
+      "keywords": [
+        "bilgilendirme",
+        "tanı değildir",
+        "çocuk gelişimi"
+      ],
+      "cta": "Kişisel durumunuza uygun değerlendirme için iletişim formunu kullanabilirsiniz."
+    },
+    {
+      "category": "Güvenlik ve Sınırlar",
+      "question": "Acil bir durumda ne yapmalıyım?",
+      "answer": "Çocuğun kendine veya başkasına zarar verme riski, istismar/ihmal şüphesi, ağır kriz, bilinç değişikliği veya tıbbi acil durum varsa web sitesi üzerinden yanıt beklemek yerine en yakın acil sağlık birimine veya ilgili resmi destek hattına başvurulmalıdır.",
+      "keywords": [
+        "acil durum",
+        "çocuk güvenliği",
+        "kriz"
+      ],
+      "cta": "Acil olmayan gelişimsel ve aile danışmanlığı soruları için iletişim formundan yazabilirsiniz."
+    }
+  ]
+}

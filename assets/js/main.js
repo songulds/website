@@ -9,6 +9,30 @@ const blogBackButton = document.querySelector("[data-blog-back]");
 const metaDescription = document.querySelector('meta[name="description"]');
 const defaultDocumentTitle = document.title;
 const defaultMetaDescription = metaDescription?.getAttribute("content") || "";
+const WHATSAPP_URL = "https://wa.me/905374850529?text=Merhaba%20Song%C3%BCl%20Han%C4%B1m%2C%20web%20siteniz%20%C3%BCzerinden%20ula%C5%9F%C4%B1yorum.%20%C3%87ocuk%20geli%C5%9Fimi%20ve%20aile%20dan%C4%B1%C5%9Fmanl%C4%B1%C4%9F%C4%B1%20hizmetleriniz%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.";
+
+const addWhatsAppContactButton = () => {
+  const contactActions = document.querySelector(
+    ".mini-contact-actions, .contact-links, .article-nav-actions"
+  );
+  if (!contactActions || contactActions.querySelector("[data-whatsapp-contact]")) return;
+
+  const whatsappButton = document.createElement("a");
+  whatsappButton.className = "button whatsapp-cta";
+  whatsappButton.href = WHATSAPP_URL;
+  whatsappButton.target = "_blank";
+  whatsappButton.rel = "noopener noreferrer";
+  whatsappButton.setAttribute("aria-label", "WhatsApp ile iletişime geç (yeni sekmede açılır)");
+  whatsappButton.setAttribute("data-whatsapp-contact", "");
+  whatsappButton.innerHTML = `
+    <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+      <path d="M20 11.6a8 8 0 0 1-11.7 7.1L4 20l1.4-4.1A8 8 0 1 1 20 11.6Z"></path>
+      <path d="M8.7 8.2c.2-.4.4-.4.7-.4h.4c.2 0 .3.1.4.4l.7 1.6c.1.3 0 .5-.2.7l-.5.6c-.2.2-.1.4 0 .6.5.9 1.3 1.7 2.2 2.2.2.1.4.2.6 0l.7-.8c.2-.2.4-.3.7-.2l1.6.8c.3.1.4.3.4.5 0 .3-.2 1.3-.8 1.8-.6.6-1.5.8-2.5.5-1.1-.3-2.6-1-4.1-2.4-1.2-1.1-2-2.4-2.3-3.5-.3-1-.1-1.8.4-2.4Z"></path>
+    </svg>
+    <span>WhatsApp ile İletişime Geç</span>
+  `;
+  contactActions.append(whatsappButton);
+};
 
 const BLOG_POSTS = [
   {
@@ -173,6 +197,7 @@ const renderBlogCards = () => {
 
 syncHeader();
 renderBlogCards();
+addWhatsAppContactButton();
 if (blogBackButton) {
   blogBackButton.addEventListener("click", hideBlogPost);
 }

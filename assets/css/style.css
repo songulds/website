@@ -1042,11 +1042,13 @@ h3 {
   flex-wrap: wrap;
   gap: 10px;
   justify-content: flex-end;
+  min-width: 0;
 }
 
 .mini-contact-actions a {
   display: inline-flex;
   align-items: center;
+  max-width: 100%;
   min-height: 46px;
   padding: 0 16px;
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -1054,6 +1056,7 @@ h3 {
   background: rgba(255, 255, 255, 0.12);
   color: #fff;
   font-weight: 800;
+  overflow-wrap: anywhere;
 }
 
 .contact-info {
@@ -1090,6 +1093,46 @@ h3 {
 .contact-links a:hover {
   transform: translateX(4px);
   background: rgba(255, 255, 255, 0.16);
+}
+
+.whatsapp-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  max-width: 100%;
+  border-color: rgba(255, 255, 255, 0.24) !important;
+  background: #257f55 !important;
+  color: #fff !important;
+  text-align: center;
+  text-decoration: none;
+}
+
+.whatsapp-cta:hover {
+  background: #1f6d49 !important;
+  color: #fff !important;
+}
+
+.whatsapp-cta:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 6px rgba(37, 127, 85, 0.42);
+}
+
+.whatsapp-cta svg {
+  flex: 0 0 20px;
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.7;
+}
+
+.whatsapp-cta span {
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .contact-form {
@@ -1821,6 +1864,10 @@ textarea {
 }
 
 @media (max-width: 760px) {
+  .services-page .page-hero-inner h1 {
+    overflow-wrap: anywhere;
+  }
+
   .blog-article-page {
     width: min(100% - 22px, 1180px);
     padding-top: 112px;
@@ -1836,5 +1883,10 @@ textarea {
 
   .article-nav-actions .button {
     width: 100%;
+  }
+
+  .whatsapp-cta {
+    width: 100%;
+    white-space: normal;
   }
 }

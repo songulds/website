@@ -1,5 +1,8 @@
 (function () {
-  const DATA_URL = "assets/data/cocuk_gelisimi_sss_bot_verisi.json";
+  const scriptUrl = document.currentScript?.src
+    ? new URL(document.currentScript.src)
+    : new URL("assets/js/chatbot.js", document.baseURI);
+  const DATA_URL = new URL("../data/cocuk_gelisimi_sss_bot_verisi.json", scriptUrl).href;
   const FALLBACK_RESPONSE = "Bu konuda genel bilgilendirme yapabilirim; ancak çocuğunuzun durumuna özel değerlendirme için iletişim formu üzerinden randevu talebi oluşturmanız daha uygun olur.";
   const SAFETY_RESPONSE = "Bu konu acil, kriz, istismar, ihmal veya tıbbi risk içerebilir. Web sitesi üzerinden yanıt beklemek yerine en yakın acil sağlık birimine veya ilgili resmi destek mekanizmalarına başvurmanız gerekir.";
   const quickQuestions = [

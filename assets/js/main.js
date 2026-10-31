@@ -11,6 +11,13 @@ const defaultDocumentTitle = document.title;
 const defaultMetaDescription = metaDescription?.getAttribute("content") || "";
 const WHATSAPP_URL = "https://wa.me/905374850529?text=Merhaba%20Song%C3%BCl%20Han%C4%B1m%2C%20web%20siteniz%20%C3%BCzerinden%20ula%C5%9F%C4%B1yorum.%20%C3%87ocuk%20geli%C5%9Fimi%20ve%20aile%20dan%C4%B1%C5%9Fmanl%C4%B1%C4%9F%C4%B1%20hizmetleriniz%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.";
 
+if (new URLSearchParams(window.location.search).has("capture")) {
+  document.body.classList.add("capture-mode");
+  document.querySelectorAll("img[loading='lazy']").forEach((image) => {
+    image.loading = "eager";
+  });
+}
+
 const addWhatsAppContactButton = () => {
   const contactActions = document.querySelector(
     ".mini-contact-actions, .contact-links, .article-nav-actions"

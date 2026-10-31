@@ -11,6 +11,13 @@ const defaultDocumentTitle = document.title;
 const defaultMetaDescription = metaDescription?.getAttribute("content") || "";
 const WHATSAPP_URL = "https://wa.me/905374850529?text=Merhaba%20Song%C3%BCl%20Han%C4%B1m%2C%20web%20siteniz%20%C3%BCzerinden%20ula%C5%9F%C4%B1yorum.%20%C3%87ocuk%20geli%C5%9Fimi%20ve%20aile%20dan%C4%B1%C5%9Fmanl%C4%B1%C4%9F%C4%B1%20hizmetleriniz%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.";
 
+if (new URLSearchParams(window.location.search).has("capture")) {
+  document.body.classList.add("capture-mode");
+  document.querySelectorAll("img[loading='lazy']").forEach((image) => {
+    image.loading = "eager";
+  });
+}
+
 const addWhatsAppContactButton = () => {
   const contactActions = document.querySelector(
     ".mini-contact-actions, .contact-links, .article-nav-actions"
@@ -40,7 +47,7 @@ const BLOG_POSTS = [
     category: "Rutinler",
     title: "Çocuk Gelişiminde Rutinlerin Önemi: Güven, Öz Düzenleme ve Günlük Yaşam Becerileri",
     detailTitle: "Çocuk Gelişiminde Rutinlerin Önemi: Güven, Öz Düzenleme ve Günlük Yaşam Becerileri",
-    image: "assets/images/blog-rutin.jpeg",
+    image: "assets/images/web/blog-rutin.jpg",
     alt: "Çocuklarda uyku, oyun, yemek ve öz bakım rutinlerini anlatan bilgilendirici görsel",
     summary: "Çocuklarda rutinler neden önemlidir? Uyku, yemek, ödev ve ekran rutinlerinin gelişime katkısını; yaşa göre örnekleri ve uygulanabilir adımları keşfedin.",
     url: "blog/cocuklarda-rutinlerin-onemi/",
@@ -52,7 +59,7 @@ const BLOG_POSTS = [
     category: "Dijital ebeveynlik",
     title: "Dijital Çağda Ebeveyn Olmak: Dijital Farkındalığınız Ne Düzeyde?",
     detailTitle: "Dijital Çağda Ebeveyn Olmak: Dijital Farkındalığınız Ne Düzeyde?",
-    image: "assets/images/blog-dijital.png",
+    image: "assets/images/web/blog-dijital.jpg",
     alt: "Dijital ebeveynlik ve çocuklarda ekran kullanımı farkındalığını anlatan görsel",
     summary: "Dijital ebeveynlik nedir? Çocuğun ekran kullanımını süre, içerik, bağlam ve güvenlik açısından değerlendirin; dijital farkındalık kontrol listesini uygulayın.",
     url: "blog/dijital-ebeveynlik-farkindaligi/",
@@ -64,7 +71,7 @@ const BLOG_POSTS = [
     category: "Ekran kuralları",
     title: "Aile İçi Dijital Kullanım ve Ekran Kuralları Sözleşmesi Nasıl Hazırlanır?",
     detailTitle: "Aile İçi Dijital Kullanım ve Ekran Kuralları Sözleşmesi Nasıl Hazırlanır?",
-    image: "assets/images/blog-ekran.png",
+    image: "assets/images/web/blog-ekran.jpg",
     alt: "Aile içi dijital kullanım ve ekran kuralları sözleşmesini anlatan görsel",
     summary: "Çocuklarla ekran kuralları nasıl belirlenir? Yaşa uyarlanabilir aile dijital kullanım sözleşmesini inceleyin; süre, içerik, güvenlik ve sonuçları birlikte planlayın.",
     url: "blog/aile-ici-ekran-kurallari-sozlesmesi/",
@@ -76,7 +83,7 @@ const BLOG_POSTS = [
     category: "Oyun",
     title: "Oyun Sadece Eğlence Değildir: Çocuğunuzun En Önemli “İşi”",
     detailTitle: "Oyun Sadece Eğlence Değildir: Çocuğunuzun En Önemli “İşi”",
-    image: "assets/images/blog-oyun.jpeg",
+    image: "assets/images/web/blog-oyun.jpg",
     alt: "Oyunun çocuk gelişimindeki önemini anlatan bilgilendirici görsel",
     summary: "Oyun çocuk gelişimini nasıl destekler? Bilişsel, dil, motor ve sosyal-duygusal gelişime katkıları; yaşa göre oyun örnekleri ve ebeveyn önerileri.",
     url: "blog/oyunun-cocuk-gelisimindeki-onemi/",
@@ -88,7 +95,7 @@ const BLOG_POSTS = [
     category: "Bilişsel destek",
     title: "Öğrenmenin Nörolojik Altyapısını İnşa Etmek: COGENT ve PREP Programları",
     detailTitle: "Öğrenmenin Nörolojik Altyapısını İnşa Etmek: COGENT ve PREP Programları",
-    image: "assets/images/blog-cogent-prep.png",
+    image: "assets/images/web/blog-cogent.jpg",
     alt: "COGENT ve PREP bilişsel müdahale programlarını temsil eden görsel",
     summary: "COGENT ve PREP programları nedir, kimlere uygulanır? PASS kuramını, uygulama sürecini, hedef becerileri ve bilimsel kanıtların sınırlarını öğrenin.",
     url: "blog/cogent-prep-programlari/",
@@ -100,7 +107,7 @@ const BLOG_POSTS = [
     category: "Değerlendirme",
     title: "Çocuğumun Gelişimi Yolunda mı? Değerlendirme Testlerinin Gücü",
     detailTitle: "Çocuğumun Gelişimi Yolunda mı? Değerlendirme Testlerinin Gücü",
-    image: "assets/images/blog-degerlendirme-testleri-rehberi.png",
+    image: "assets/images/web/blog-degerlendirme.jpg",
     alt: "Çocuk gelişim değerlendirme testlerinin önemini anlatan bilgilendirici görsel",
     summary: "Çocuk gelişim testleri neyi ölçer? DENVER II, AGTE, Marmara İlköğretime Hazır Oluş, Portage ve MOXO’nun amaçlarını ve sınırlarını öğrenin.",
     url: "blog/cocuk-gelisim-testleri-degerlendirme/",
@@ -113,6 +120,7 @@ const closeMenu = () => {
   document.body.classList.remove("nav-open");
   nav.classList.remove("is-open");
   menuToggle.setAttribute("aria-expanded", "false");
+  menuToggle.setAttribute("aria-label", "Menüyü aç");
 };
 
 if (menuToggle && nav) {
@@ -121,10 +129,18 @@ if (menuToggle && nav) {
     document.body.classList.toggle("nav-open", !isOpen);
     nav.classList.toggle("is-open", !isOpen);
     menuToggle.setAttribute("aria-expanded", String(!isOpen));
+    menuToggle.setAttribute("aria-label", isOpen ? "Menüyü aç" : "Menüyü kapat");
   });
 
   nav.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", closeMenu);
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && menuToggle.getAttribute("aria-expanded") === "true") {
+      closeMenu();
+      menuToggle.focus();
+    }
   });
 }
 
@@ -185,7 +201,7 @@ const renderBlogCards = () => {
   if (!blogGrid) return;
   blogGrid.innerHTML = BLOG_POSTS.map((post) => `
     <a class="blog-card" href="${post.url}" aria-label="${post.title} yazısını aç">
-      <img src="${post.image}" alt="${post.alt}" loading="lazy">
+      <img class="cover cover--info" src="${post.image}" alt="${post.alt}" width="760" height="760" loading="lazy">
       <div class="blog-card-body">
         <span>${post.category}</span>
         <h3>${post.title}</h3>
